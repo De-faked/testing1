@@ -1,0 +1,47 @@
+.boxing {
+    display: flex;
+    height: 70px;
+    width: 70px;
+    background-color: teal;
+    animation-name: circling;
+    animation: circling 36s infinite;
+}
+
+@keyframes circling {
+   0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+
+.long{
+height: 50px;
+width: 100px;
+}
+
+.long1{
+    background-color: aquamarine;
+}
+.long2{
+    background-color: blue;
+}
+.long3{
+    background-color: blueviolet;
+}
+.long4{
+    background-color: crimson;
+}
